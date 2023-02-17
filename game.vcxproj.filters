@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MAIN">
+      <UniqueIdentifier>{b406bb0c-467d-43fe-87ca-fe0b99d1f170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base Class">
+      <UniqueIdentifier>{52ef4008-60c7-4e2a-93a9-fc72c3a425fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelFactory">
+      <UniqueIdentifier>{5fa7ecb1-18f6-4bf5-b28b-4b40da25fe6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelSnow">
+      <UniqueIdentifier>{fd2d1d51-53dd-4eab-856d-a7570add46aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelSnow\Actors">
+      <UniqueIdentifier>{a888222b-fad4-4946-9460-89487fde2d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelSnow\Level">
+      <UniqueIdentifier>{5dfe2d84-5995-4bf1-9a04-5b27ea1801d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelTitle">
+      <UniqueIdentifier>{ba181f7a-561f-4224-b3b1-8328992fb6c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelTitle\Actors">
+      <UniqueIdentifier>{ead60d94-f9db-419e-9b39-73882e3d7abc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LevelTitle\Level">
+      <UniqueIdentifier>{73257619-a971-48b5-b94f-86dd2bbd4581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MAIN\Actors">
+      <UniqueIdentifier>{7a665d1a-aea5-4c06-9ca9-98647b6cb932}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GAME.cpp">
+      <Filter>MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="gmain.cpp">
+      <Filter>MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="TRANSITION_EFFECT.cpp">
+      <Filter>MAIN</Filter>
+    </ClCompile>
+    <ClCompile Include="LEVEL.cpp">
+      <Filter>Base Class</Filter>
+    </ClCompile>
+    <ClCompile Include="SNOW_FLAKE.cpp">
+      <Filter>LevelSnow\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="SNOW.cpp">
+      <Filter>LevelSnow\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE_TEXT.cpp">
+      <Filter>LevelTitle\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="TO_SNOW_TEXT.cpp">
+      <Filter>LevelTitle\Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>LevelTitle\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="levelFactory.cpp">
+      <Filter>LevelFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="PLAYER.cpp">
+      <Filter>MAIN\Actors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAME.h">
+      <Filter>MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="TRANSITION_EFFECT.h">
+      <Filter>MAIN</Filter>
+    </ClInclude>
+    <ClInclude Include="ACTOR.h">
+      <Filter>Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="LEVEL.h">
+      <Filter>Base Class</Filter>
+    </ClInclude>
+    <ClInclude Include="SNOW_FLAKE.h">
+      <Filter>LevelSnow\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="SNOW.h">
+      <Filter>LevelSnow\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE_TEXT.h">
+      <Filter>LevelTitle\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="TO_SNOW_TEXT.h">
+      <Filter>LevelTitle\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>LevelTitle\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="levelFactory.h">
+      <Filter>LevelFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="PLAYER.h">
+      <Filter>MAIN\Actors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
