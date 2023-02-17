@@ -144,6 +144,7 @@
     <ClCompile Include="TITLE.cpp" />
     <ClCompile Include="TITLE_TEXT.cpp" />
     <ClCompile Include="TO_SNOW_TEXT.cpp" />
+    <ClCompile Include="TO_TITLE_TEXT.cpp" />
     <ClCompile Include="TRANSITION_EFFECT.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +161,7 @@
     <ClInclude Include="TITLE.h" />
     <ClInclude Include="TITLE_TEXT.h" />
     <ClInclude Include="TO_SNOW_TEXT.h" />
+    <ClInclude Include="TO_TITLE_TEXT.h" />
     <ClInclude Include="TRANSITION_EFFECT.h" />
   </ItemGroup>
   <ItemGroup>

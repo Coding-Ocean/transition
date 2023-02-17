@@ -3,6 +3,7 @@
 #include "input.h"
 #include "GAME.h"
 #include "SNOW_FLAKE.h"
+#include "TO_TITLE_TEXT.h"
 #include "SNOW.h"
 
 SNOW::SNOW(GAME* game)
@@ -14,6 +15,7 @@ SNOW::SNOW(GAME* game)
 	for (int i = 0; i < NumSnowFlakes; i++) {
 		AddActor(new SNOW_FLAKE(game));
 	}
+	AddActor(new TO_TITLE_TEXT(game));
 }
 
 SNOW::~SNOW()

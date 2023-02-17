@@ -70,6 +70,9 @@
     <ClCompile Include="PLAYER.cpp">
       <Filter>MAIN\Actors</Filter>
     </ClCompile>
+    <ClCompile Include="TO_TITLE_TEXT.cpp">
+      <Filter>LevelSnow\Actors</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="resource.rc">
@@ -109,6 +112,9 @@
     </ClInclude>
     <ClInclude Include="PLAYER.h">
       <Filter>MAIN\Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="TO_TITLE_TEXT.h">
+      <Filter>LevelSnow\Actors</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
