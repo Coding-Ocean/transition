@@ -137,7 +137,7 @@
     <ClCompile Include="GAME.cpp" />
     <ClCompile Include="gmain.cpp" />
     <ClCompile Include="LEVEL.cpp" />
-    <ClCompile Include="levelFactory.cpp" />
+    <ClCompile Include="LEVEL_FACTORY.cpp" />
     <ClCompile Include="PLAYER.cpp" />
     <ClCompile Include="SNOW.cpp" />
     <ClCompile Include="SNOW_FLAKE.cpp" />
@@ -154,7 +154,7 @@
     <ClInclude Include="ACTOR.h" />
     <ClInclude Include="GAME.h" />
     <ClInclude Include="LEVEL.h" />
-    <ClInclude Include="levelFactory.h" />
+    <ClInclude Include="LEVEL_FACTORY.h" />
     <ClInclude Include="PLAYER.h" />
     <ClInclude Include="SNOW.h" />
     <ClInclude Include="SNOW_FLAKE.h" />

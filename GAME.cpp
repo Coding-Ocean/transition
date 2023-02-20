@@ -12,8 +12,10 @@ GAME::GAME()
 
 	addActor(new PLAYER(this));
 
-	CurrentLevelId = NextLevelId = TITLE_ID;
-	Level = levelFactory(CurrentLevelId, this);
+	//スタート時のレベルをつくる
+	LevelFactory = new LEVEL_FACTORY(this);
+	CurrentLevelId = NextLevelId = LEVEL_FACTORY::TITLE_ID;
+	Level = LevelFactory->create(CurrentLevelId);
 
 	Transition = new TRANSITION_EFFECT;
 	Transition->setTime(6);
@@ -42,15 +44,17 @@ void GAME::run()
 		fill(255);
 		print((let)"deltaTime=" + delta);
 #endif
+		//Level->proc()内でレベルを切り替えていない
 		if (CurrentLevelId == NextLevelId) {
 			continue;
 		}
-		//Level切り替え
+		//Level->proc()内でレベルを切り替えた時ここに来る
 		Transition->outStart();
+		//画面切り替え効果終了後、Level切り替え
 		if (Transition->outEndFlag()) {
 			delete Level;
 			CurrentLevelId = NextLevelId;
-			Level = levelFactory(CurrentLevelId, this);
+			Level = LevelFactory->create(CurrentLevelId);
 			Transition->inStart();
 		}
 	}

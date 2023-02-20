@@ -27,11 +27,12 @@ void TITLE::proc()
 {
 	UpdateActors();
 	game()->updateActors();
+
 	clear(60);
 	DrawActors();
 	game()->drawActors();
 
 	if (isTrigger(KEY_SPACE)) {
-		game()->setNextLevelId(SNOW_ID);
+		game()->setNextLevelId(LEVEL_FACTORY::SNOW_ID);
 	}
 }

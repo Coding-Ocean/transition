@@ -64,7 +64,7 @@
     <ClCompile Include="TITLE.cpp">
       <Filter>LevelTitle\Level</Filter>
     </ClCompile>
-    <ClCompile Include="levelFactory.cpp">
+    <ClCompile Include="LEVEL_FACTORY.cpp">
       <Filter>LevelFactory</Filter>
     </ClCompile>
     <ClCompile Include="PLAYER.cpp">
@@ -107,7 +107,7 @@
     <ClInclude Include="TITLE.h">
       <Filter>LevelTitle\Level</Filter>
     </ClInclude>
-    <ClInclude Include="levelFactory.h">
+    <ClInclude Include="LEVEL_FACTORY.h">
       <Filter>LevelFactory</Filter>
     </ClInclude>
     <ClInclude Include="PLAYER.h">
